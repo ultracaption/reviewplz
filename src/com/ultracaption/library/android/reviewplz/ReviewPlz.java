@@ -15,7 +15,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
-import com.ultracaption.library.android.reviewplz.R;
 
 public class ReviewPlz {
 
@@ -183,7 +182,7 @@ public class ReviewPlz {
 
   private static SharedPreferences getPref(Context context) {
     SharedPreferences pref = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-    debug(pref);
+    // debug(pref);
     return pref;
   }
 
