@@ -1,4 +1,4 @@
-package com.polysiya.reviewplz;
+package com.ultracaption.library.android.reviewplz;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
+import com.ultracaption.library.android.reviewplz.R;
 
 public class ReviewPlz {
 
