@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="review_title">Write a review for %s</string>
+    <string name="review_description">If you enjoy using %s, would you mind taking a moment to review it? Thanks for your support!</string>
+    <string name="review">Yes, Review %s</string>
+    <string name="review_later">Remind me later</string>
+    <string name="review_reject">No, Thanks</string>
+
+</resources>

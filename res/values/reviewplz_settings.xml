@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="review_app_name">ReviewPlz</string>
+    <string name="required_days_after_launch">3</string>
+    <string name="required_days_after_later_clicked">3</string>
+    <string name="required_launch_count">10</string>
+    <string name="required_significant_action_count">10</string>
+    <string name="count_after_required_days_passed">false</string>
+    <string name="debug">true</string>
+    <string name="app_market_url">market://details?id=com.polysiya.reviewplz</string>
+
+</resources>
