@@ -35,10 +35,8 @@ This library is currently being used in [MARTINI](http://martiniplz.com/).
     
 #### Customize push dialog
 
-    void whereYouWantToShowDialog() {
-      ReviewPlz.showPushDialog(this, new ReviewPushDialog(), "review");
-    }
-    ..
+    import com.ultracaption.library.android.reviewplz.ReviewPlz.ReviewPlzDialog;
+    
     public class ReviewPushDialog extends ReviewPlzDialog {
       ..
       public void onReviewButtonClick(View view) {
@@ -51,6 +49,10 @@ This library is currently being used in [MARTINI](http://martiniplz.com/).
         rejectClicked();
       }
       ..
+    }
+    
+    void whereYouWantToShowDialog() {
+      ReviewPlz.showPushDialog(this, new ReviewPushDialog(), "review");
     }
     
     
