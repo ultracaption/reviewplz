@@ -20,5 +20,22 @@ local.properties
 .project
 .settings/
 
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+.gradle
+build
+
 # Mac OS
 .DS_Store
+
+# config file
+res/raw/config.xml
+res/values/api_keys.xml
+
+# Android Annotation files
+.apt_generated/
